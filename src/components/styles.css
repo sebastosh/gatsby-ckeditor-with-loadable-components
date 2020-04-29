@@ -55,6 +55,18 @@ nav a {
     margin-left: 45px;
 }
 
+.pages {
+  margin: 6.2em 0 0 1.2em;
+}
+
+.photos {
+  max-width: 1200px;
+  margin: 0 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
 .marquee {
   top: 6em;
   position: relative;
@@ -76,6 +88,15 @@ nav a {
 .pages {
   margin: 6.2em 0 0 1.2em;
 }
+
+.photos {
+  max-width: 1200px;
+  margin: 0 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
 
 .ck-content {
   color: black;
