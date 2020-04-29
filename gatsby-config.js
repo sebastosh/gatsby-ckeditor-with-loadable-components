@@ -19,5 +19,29 @@ module.exports = {
     },
   },
   `gatsby-transformer-remark`,
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Wiley Teleprompting`,
+      short_name: `Wiley Teleprompting`,
+      start_url: `/`,
+      background_color: `#111`,
+      theme_color: `#111`,
+      // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+      // see https://developerse.google.com/web/fundamentals/web-app-manifest/#display
+      display: `standalone`,
+      icon: `src/images/icon.png`, // This path is relative to the root of the site.
+    },
+  },
+  `gatsby-plugin-offline`,
+  `gatsby-plugin-react-helmet`,
+  {
+    resolve: `gatsby-source-instagram`,
+    options: {
+      username: `wileyteleprompting`,
+    },
+  },
+  `gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
 ],
 }
