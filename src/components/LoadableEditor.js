@@ -5,7 +5,7 @@ import Prompt from "./prompt"
 
 export default class LoadableEditor extends Component {
   state = {
-    data: {},
+    data: "<p>Paste &amp; edit your script here.</p>",
     promptMode: false,
   }
 
@@ -15,13 +15,14 @@ export default class LoadableEditor extends Component {
 
   render() {
     return (
-      <div className="pages white">
+      <div className="prompter-container white">
         <div className={this.state.promptMode ? "hide" : null}>
-          <h2>Paste & edit your script below</h2>{" "}
+          <div className="prompt-text">
           <button onClick={this.onprompt}>PROMPT</button>
+          </div>
           <CKEditor
             editor={ClassicEditor}
-            data="Hello from CKEditor 5!"
+            data="Paste & edit your script here."
             onInit={editor => {
               // You can store the "editor" and use when it is needed.
               console.log("Editor is ready to use!", editor)
@@ -41,7 +42,7 @@ export default class LoadableEditor extends Component {
         </div>
 
         <div className={this.state.promptMode ? null : "hide"}>
-          <Prompt data={this.state.data} />
+          <Prompt data={this.state.data} togglePrompt={this.onprompt} />
         </div>
       </div>
     )

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from 'gatsby' 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const gramURL = 'https://www.instagram.com/p/'
 
@@ -10,6 +11,8 @@ export default ({ data }) => {
 
   return (
     <Layout>
+
+<SEO title="Photos" description="Wiley Teleprompting Instagram Photos" />
 <div className="pages white"><h1>PHOTOS</h1>
 
 <div className="photos" >

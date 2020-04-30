@@ -9,16 +9,15 @@ export default ({ children }) => {
     <div>
       <div className="triangle"></div>
       <header>
-      <Link to={`/`}>
-        <Logo />
-
-      </Link>
-    <nav>
-      <Link to={`/prompter/`}>Prompter</Link>
-      <Link to={`/services/`}>Services</Link>
-      <Link to={`/photos/`}>Photos</Link>
-      <Link to={`/testimonials/`}>Testimonials</Link>
-      <Link to={`/contact/`}>Contact</Link>
+        <Link to={`/`}>
+          <Logo />
+        </Link>
+      <nav>
+        <Link to={`/prompter/`}>Prompter</Link>
+        <Link to={`/services/`}>Services</Link>
+        <Link to={`/photos/`}>Photos</Link>
+        <Link to={`/testimonials/`}>Testimonials</Link>
+        <Link to={`/contact/`}>Contact</Link>
       </nav>
       </header>
       {children}
