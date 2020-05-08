@@ -1,9 +1,7 @@
 ---
-title: "Contact"
+title: "Get in touch:"
 date: "2020-08-10"
 ---
-
-## > Get in touch:
 
 Call us or find us on Facebook!
 (917) 746-4060

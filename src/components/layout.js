@@ -6,14 +6,14 @@ import Logo from "./logo"
 export default ({ children }) => {
 
   return (
-    <div>
+    <div className="main">
       <div className="triangle"></div>
       <header>
         <Link to={`/`}>
           <Logo />
         </Link>
       <nav>
-        <Link to={`/prompter/`}>Prompter</Link>
+        {/* <Link to={`/prompter/`}>Prompter</Link> */}
         <Link to={`/services/`}>Services</Link>
         <Link to={`/photos/`}>Photos</Link>
         <Link to={`/testimonials/`}>Testimonials</Link>
