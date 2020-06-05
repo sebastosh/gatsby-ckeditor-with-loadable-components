@@ -43,5 +43,18 @@ module.exports = {
   },
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
+  {
+    resolve: 'gatsby-source-prismic-graphql',
+    options: {
+      repositoryName: 'wileyteleprompting', // required
+      defaultLang: 'en-us',
+      // pages: [{ // optional
+      //   type: 'Services' ,// TypeName from prismic
+      //   match: '/:uid', // pages will be generated under this pattern
+      //   component: require.resolve('./src/templates/page.js'),
+      //   sortBy: 'date_ASC', // optional, default: meta_lastPublicationDate_ASC; useful for pagination
+      // }],
+    }
+  },
 ],
 }
