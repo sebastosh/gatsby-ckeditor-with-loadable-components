@@ -42,17 +42,17 @@ module.exports = {
       },
     },
   `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
   `gatsby-plugin-catch-links`,
   `gatsby-plugin-sharp`,
+  `gatsby-remark-images`,
   {
-    resolve: `gatsby-transformer-remark`,
+    resolve: `gatsby-plugin-mdx`,
     options: {
-      plugins: [
+      gatsbyRemarkPlugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 800,
+            maxWidth: 1200,
           },
         },
       ],
@@ -61,7 +61,7 @@ module.exports = {
   {
     resolve: `gatsby-source-filesystem`,
     options: {
-      path: `${__dirname}/src/`,
+      path: `${__dirname}/src/pages`,
     },
   },
 ],
