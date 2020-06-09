@@ -1,7 +1,7 @@
 {
-  "name": "Wiley Teleprompting",
+  "name": "wiley-teleprompting",
   "private": true,
-  "description": "professional teleprompting services for film, live event, and remote productions",
+  "description": "professional teleprompting services",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
