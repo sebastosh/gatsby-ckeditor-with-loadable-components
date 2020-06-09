@@ -103,7 +103,7 @@ nav a {
 
 .prompt-text {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .prompt-text button {
