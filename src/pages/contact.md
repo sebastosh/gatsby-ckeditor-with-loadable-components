@@ -9,6 +9,8 @@ date: "2020-08-10"
 
 ![](/email-icon.png) info@wileyteleprompting.com
 
-[![](/facebook-icon.png) /WileyTeleprompting](www.facebook.com/WileyTeleprompting)
+# Follow us on: 
 
-[![](/instagram-icon.png) /wileyteleprompting](www.facebook.com/WileyTeleprompting)
+[![](/facebook-icon.png) WileyTeleprompting](https://www.facebook.com/WileyTeleprompting/)
+
+[![](/instagram-icon.png) wileyteleprompting](https://www.instagram.com/wileyteleprompting/)

@@ -38,9 +38,9 @@ module.exports = {
   {
     resolve: `gatsby-source-instagram`,
     options: {
-      username: `wileyteleprompting`,
+      username: `33468122035`,
+      },
     },
-  },
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
   `gatsby-plugin-catch-links`,

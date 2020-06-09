@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+img {
+  vertical-align:middle;
+}
+
 .main {
   margin: 0;
 }
@@ -60,18 +64,6 @@ nav a {
   margin-left: 45px;
 }
 
-.pages {
-  margin: 6.2em 0 0 1.2em;
-}
-
-.photos {
-  max-width: 1200px;
-  margin: 0 0;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-}
-
 .marquee {
   top: 6em;
   position: relative;
@@ -94,7 +86,7 @@ nav a {
 }
 
 .pages {
-  margin: 7.5em 0 0 1.5em;
+  margin: 7.5em 3em 0 1.5em;
 }
 
 .photos {
