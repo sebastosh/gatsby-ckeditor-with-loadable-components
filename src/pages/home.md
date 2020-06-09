@@ -7,8 +7,6 @@ Wiley Teleprompting is a New York based teleprompting company that provides prof
 
 Our warm, friendly and experienced operators provide seamless, courteous, professional services in even the highest pressure productions.  Spanish speaking operators are also available!  
 
-Please don't hesitate to contact us with any questions!     
-
-We can be reached at (917) 746-4060 or (415) 310-2024.  You can also email us through our contact page or at info@wileyteleprompting.com.  
+Please don't hesitate to [contact us with any questions!](/contact/)
 
 We would love to serve you!
