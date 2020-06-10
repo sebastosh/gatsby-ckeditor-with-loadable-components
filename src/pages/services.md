@@ -9,7 +9,7 @@ We provide a no-contact remote teleprompting package ideal for video conferencin
 
 ## Stage Teleprompting:
 
-We have easy-to-read, low profile presidential prompters for stage productions, as well as the ability to send our signal to downstage monitors. Our presidential system uses top of the line, bright, flat screen monitors made especially for teleprompting systems.
+We have easy-to-read, low profile presidential prompters for stage productions, as well as high-end professional downstage monitors. Our presidential system uses top of the line, bright, flat screen monitors made especially for stage and podium use.
 
 ## Video Teleprompting:
 

@@ -9,6 +9,4 @@ date: "2020-08-10"
 
 info@wileyteleprompting.com
 
-[Facebook](https://www.facebook.com/WileyTeleprompting/)
-
-[Instagram](https://www.instagram.com/wileyteleprompting/)
+### Follow us on:

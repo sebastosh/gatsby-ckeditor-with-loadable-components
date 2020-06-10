@@ -97,6 +97,15 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 }
 
+.social {
+  margin-left: 1.5em;
+}
+
+.social a{
+  margin-right: 1.5em;
+}
+
+
 .prompter-container {
   margin: 4em 0 0 1.2em;
 }
